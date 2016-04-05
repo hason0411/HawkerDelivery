@@ -1,12 +1,10 @@
 package com.colon3.cz2006.hawkerdelivery.Boundary;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.colon3.cz2006.hawkerdelivery.Adapter.DishAdapter;
 import com.colon3.cz2006.hawkerdelivery.Controller.DishController;
@@ -41,7 +39,5 @@ public class FavouritesActivity extends BaseActivity  {
                 startActivity(i);
             }
         });
-
-
     }
 }
